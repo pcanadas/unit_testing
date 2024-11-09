@@ -6,7 +6,7 @@ During code development, each unit is tested in a continuous integration test se
 
 ### Code Example
 
-import unittest
+'import unittest
 from mypackage.mymodule import my_function
 
 class TestMyFunction(unittest.TestCase):
@@ -15,4 +15,4 @@ class TestMyFunction(unittest.TestCase):
         result = my_function(<args>)
         self.assertEqual(result, <response>)
 
-unittest.main()
+unittest.main()'
