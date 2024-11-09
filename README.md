@@ -6,13 +6,13 @@ During code development, each unit is tested in a continuous integration test se
 
 ### Code Example
 
-'import unittest
-from mypackage.mymodule import my_function
+    import unittest
+    from mypackage.mymodule import my_function
 
-class TestMyFunction(unittest.TestCase):
+    class TestMyFunction(unittest.TestCase):
 
-    def test_my_function(self):
-        result = my_function(<args>)
-        self.assertEqual(result, <response>)
+        def test_my_function(self):
+            result = my_function(<args>)
+            self.assertEqual(result, <response>)
 
-unittest.main()'
+    unittest.main()
